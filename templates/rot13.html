@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <form method="post">
+        <textarea name="text" placeholder="Enter text here.">
+        {{ text }}
+        </textarea>
+        <br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+{% endblock %}
